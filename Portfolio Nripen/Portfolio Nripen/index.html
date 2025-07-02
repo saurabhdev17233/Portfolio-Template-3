@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nripen Kumar | AI/ML Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/animations.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#home"><span class="blue">N</span>ripen</a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+                <button id="darkModeToggle" class="dark-mode-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="mobileMenuToggle" class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+        <div id="mobileMenu" class="mobile-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="mobileDarkModeToggle" class="dark-mode-toggle">
+                        <i class="fas fa-moon"></i> Dark Mode
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div id="threeScene" class="three-scene"></div>
+        <div class="container">
+            <div class="home-content">
+                <h1>Hi, I'm <span class="blue">Nripen Kumar</span></h1>
+                <div class="typewriter">
+                    <span id="typewriter"></span>
+                </div>
+                <p>Aspiring AIML enthusiast with a strong foundation in data-driven decision-making, machine learning algorithms, and scalable system development.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="assets/resume.pdf" download="Nripen_Kumar_Resume.pdf" class="btn secondary">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-divider"></div>
+            
+            <div class="about-grid">
+                <div class="about-column">
+                    <h3 class="subtitle"><i class="fas fa-graduation-cap blue"></i> Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>B.Tech in AIML</h4>
+                                <p class="institution">Chandigarh Engineering College, Jhanjeri</p>
+                                <p class="duration">August 2023 - July 2026</p>
+                                <p class="details">CGPA: 8.22/10.0</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>B.Sc in Non-Medical</h4>
+                                <p class="institution">DAV College</p>
+                                <p class="duration">June 2020 - July 2023</p>
+                                <p class="details">Percentage: 65</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>12th in Non-Medical</h4>
+                                <p class="institution">Army Public School</p>
+                                <p class="duration">June 2017 - July 2020</p>
+                                <p class="details">Percentage: 76.4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-column">
+                    <h3 class="subtitle"><i class="fas fa-laptop-code blue"></i> Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Machine Learning Intern</h4>
+                                <p class="institution">Wayspire</p>
+                                <p class="duration">July 2024 - Nov 2024</p>
+                                <ul class="details-list">
+                                    <li>Acquired knowledge of fundamental ML concepts</li>
+                                    <li>Implemented various ML algorithms</li>
+                                    <li>Collaborated on a data-driven web application</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Python Programming Intern</h4>
+                                <p class="institution">Maangler</p>
+                                <p class="duration">Aug 2024 - Oct 2024</p>
+                                <ul class="details-list">
+                                    <li>Analyzed digital marketing strategies</li>
+                                    <li>Designed a dashboard for ad performance</li>
+                                    <li>Gained experience in debugging and optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="approach-section">
+                <h3 class="subtitle center"><i class="fas fa-brain blue"></i> My Approach</h3>
+                <div class="approach-content">
+                    <p>As an aspiring AI/ML enthusiast, I focus on leveraging data-driven decision-making and machine learning algorithms to solve real-world problems. My approach combines:</p>
+                    <div class="approach-grid">
+                        <div class="approach-item">
+                            <div class="approach-icon">
+                                <i class="fas fa-cogs blue"></i>
+                            </div>
+                            <p>Model optimization and performance tuning</p>
+                        </div>
+                        <div class="approach-item">
+                            <div class="approach-icon">
+                                <i class="fas fa-expand blue"></i>
+                            </div>
+                            <p>Scalable system development</p>
+                        </div>
+                        <div class="approach-item">
+                            <div class="approach-icon">
+                                <i class="fas fa-robot blue"></i>
+                            </div>
+                            <p>AI-driven automation</p>
+                        </div>
+                        <div class="approach-item">
+                            <div class="approach-icon">
+                                <i class="fas fa-network-wired blue"></i>
+                            </div>
+                            <p>Deep learning techniques</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="section-divider"></div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project1.jpg" alt="Virtual Career Advisor">
+                    </div>
+                    <div class="project-content">
+                        <h3>Virtual Career Advisor</h3>
+                        <p>A system that analyzes user profiles, career trends, and job market analytics to provide personalized career recommendations using NLP techniques.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Scikit-Learn</span>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project2.jpg" alt="Web Performance Analytics">
+                    </div>
+                    <div class="project-content">
+                        <h3>Optimizing Web Performance with Data Analytics</h3>
+                        <p>Designed a data-driven dashboard to analyze website traffic and implemented A/B testing strategies to enhance user engagement.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Tableau</span>
+                            <span>PowerBI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project3.jpg" alt="Medical Cost Analysis">
+                    </div>
+                    <div class="project-content">
+                        <h3>Medical Cost Personal Datasets EDA</h3>
+                        <p>Analyzed how medical costs vary with factors like age, gender, and health conditions through comprehensive exploratory data analysis.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Matplotlib</span>
+                            <span>Seaborn</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="section-divider"></div>
+            
+            <div class="skills-grid">
+                <div class="skills-column">
+                    <div class="skills-category">
+                        <h3 class="subtitle">Programming Languages</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>C++</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>C</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h3 class="subtitle">Machine Learning & AI</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>TensorFlow</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Scikit-Learn</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>OpenCV</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>NLP</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-column">
+                    <div class="skills-category">
+                        <h3 class="subtitle">Web Technologies</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>API Development</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>MongoDB</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 65%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h3 class="subtitle">Tools & Platforms</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Google Colab</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Jupyter Notebook</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Tableau</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>PowerBI</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-chart-container">
+                <h3 class="subtitle center">Skill Proficiency</h3>
+                <div id="skillChart" class="skill-chart"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates-section">
+        <div class="container">
+            <h2 class="section-title">Certificates</h2>
+            <div class="section-divider"></div>
+
+            <div class="certificates-carousel">
+                <div class="certificates-track">
+                    <!-- Replace src with your actual image paths -->
+                    <img src="assets/certificates/c1.png" alt="Certificate 1" class="certificate-img">
+                    <img src="assets/certificates/c2.jpg" alt="Certificate 2" class="certificate-img">
+                    <img src="assets/certificates/c3.jpg" alt="Certificate 3" class="certificate-img">
+                    <img src="assets/certificates/c4.jpg" alt="Certificate 4" class="certificate-img">
+                    <img src="assets/certificates/c5.jpg" alt="Certificate 5" class="certificate-img">
+                    <img src="assets/certificates/c6.png" alt="Certificate 6" class="certificate-img">
+                    <img src="assets/certificates/c7.png" alt="Certificate 7" class="certificate-img">
+                    <img src="assets/certificates/c8.png" alt="Certificate 8" class="certificate-img">
+                    <img src="assets/certificates/c9.png" alt="Certificate 9" class="certificate-img">
+                    <img src="assets/certificates/c10.png" alt="Certificate 10" class="certificate-img">
+                    <img src="assets/certificates/c11.png" alt="Certificate 11" class="certificate-img">
+                    <img src="assets/certificates/c12.png" alt="Certificate 12" class="certificate-img">
+                    <img src="assets/certificates/c13.png" alt="Certificate 13" class="certificate-img">
+                    <img src="assets/certificates/c14.png" alt="Certificate 14" class="certificate-img">
+                    <img src="assets/certificates/c15.png" alt="Certificate 15" class="certificate-img">
+                    <img src="assets/certificates/c16.png" alt="Certificate 16" class="certificate-img">
+                    <img src="assets/certificates/c17.png" alt="Certificate 17" class="certificate-img">
+                    <img src="assets/certificates/c18.png" alt="Certificate 18" class="certificate-img">
+                    <img src="assets/certificates/c19.png" alt="Certificate 19" class="certificate-img">
+                    <img src="assets/certificates/c20.png" alt="Certificate 20" class="certificate-img">
+                    <img src="assets/certificates/c21.png" alt="Certificate 21" class="certificate-img">
+                    <img src="assets/certificates/c22.png" alt="Certificate 22" class="certificate-img">
+                    <img src="assets/certificates/c23.png" alt="Certificate 23" class="certificate-img">
+                    <img src="assets/certificates/c24.png" alt="Certificate 24" class="certificate-img">
+                    <img src="assets/certificates/c25.png" alt="Certificate 25" class="certificate-img">
+                    <img src="assets/certificates/c26.png" alt="Certificate 26" class="certificate-img">
+                    <img src="assets/certificates/c27.png" alt="Certificate 27" class="certificate-img">
+                    <img src="assets/certificates/c28.png" alt="Certificate 28" class="certificate-img">
+                    <img src="assets/certificates/c29.png" alt="Certificate 29" class="certificate-img">
+                    <img src="assets/certificates/c30.png" alt="Certificate 30" class="certificate-img">
+                    <img src="assets/certificates/c31.png" alt="Certificate 31" class="certificate-img">
+                    <img src="assets/certificates/c32.png" alt="Certificate 32" class="certificate-img">
+                    <img src="assets/certificates/c33.jpg" alt="Certificate 33" class="certificate-img">
+                    <!-- Add more certificates as needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <h2 class="section-title">Blog & Articles</h2>
+            <div class="section-divider"></div>
+            
+            <div class="blog-search">
+                <div class="search-container">
+                    <input type="text" id="blogSearch" placeholder="Search articles...">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+            
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">May 15, 2024</span>
+                            <span class="blog-read-time">8 min read</span>
+                        </div>
+                        <h3>Understanding Neural Networks: From Basics to Deep Learning</h3>
+                        <p>A comprehensive guide to neural networks, covering their architecture, training process, and applications in deep learning.</p>
+                        <div class="blog-tags">
+                            <span>#AI</span>
+                            <span>#Deep Learning</span>
+                            <span>#Neural Networks</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">April 28, 2024</span>
+                            <span class="blog-read-time">6 min read</span>
+                        </div>
+                        <h3>Data Preprocessing Techniques for Machine Learning</h3>
+                        <p>Explore essential data preprocessing techniques to prepare your datasets for effective machine learning model training.</p>
+                        <div class="blog-tags">
+                            <span>#Machine Learning</span>
+                            <span>#Data Science</span>
+                            <span>#Preprocessing</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">March 10, 2024</span>
+                            <span class="blog-read-time">10 min read</span>
+                        </div>
+                        <h3>The Future of AI in Healthcare: Opportunities and Challenges</h3>
+                        <p>Examining how AI is transforming healthcare, from diagnostics to personalized medicine, and the ethical considerations involved.</p>
+                        <div class="blog-tags">
+                            <span>#AI</span>
+                            <span>#Healthcare</span>
+                            <span>#Ethics</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">February 22, 2024</span>
+                            <span class="blog-read-time">12 min read</span>
+                        </div>
+                        <h3>Building Your First Machine Learning Model with Python</h3>
+                        <p>A step-by-step tutorial for beginners to build and evaluate their first machine learning model using Python and Scikit-Learn.</p>
+                        <div class="blog-tags">
+                            <span>#Python</span>
+                            <span>#Machine Learning</span>
+                            <span>#Tutorial</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="section-divider"></div>
+            
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <h3 class="subtitle">Contact Form</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info-container">
+                    <div class="contact-info-section">
+                        <h3 class="subtitle">Contact Information</h3>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope blue"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:raonripen03835@gmail.com">raonripen03835@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone blue"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+919649837537">+91 9649837537</a>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt blue"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Chandigarh, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-section">
+                        <h3 class="subtitle">Connect With Me</h3>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/nripen03835" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/nripen03835" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://twitter.com/Nripen03835" target="_blank" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Nripen Kumar</h3>
+                    <p>AI/ML enthusiast passionate about leveraging technology to solve real-world problems.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chandigarh, India</li>
+                        <li>raonripen03835@gmail.com</li>
+                        <li>+91 9649837537</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <div class="footer-social-links">
+                        <a href="https://www.linkedin.com/in/nripen03835" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/nripen03835" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/Nripen03835" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Nripen Kumar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="js/threeScene.js"></script>
+    <script src="js/skillChart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+<section id="home" class="hero-section">
+    <div id="three-background"></div> <!-- This div will host the 3D canvas -->
+    <div class="container">
+        <h1 class="fade-in delay-1">Hi, I'm <span class="gradient-text">[Your Name]</span></h1>
+        <p class="typing-effect delay-2" id="typewriter-text">A passionate [Your Profession] specializing in [Your Niche].</p>
+        <div class="cta-buttons fade-in delay-3">
+            <a href="#projects" class="btn pulse">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+    </div>
